@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Tryitter.Context;
 using System.Text.Json.Serialization;
-using Microsoft.AspNetCore.Identity;
+// using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,9 +19,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(mySqlConnection,
     ServerVersion.AutoDetect(mySqlConnection)));
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+/* builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
-    .AddDefaultTokenProviders();
+    .AddDefaultTokenProviders(); */
 
 var app = builder.Build();
 
@@ -34,7 +34,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
+// app.UseAuthentication();
 
 app.UseAuthorization();
 
