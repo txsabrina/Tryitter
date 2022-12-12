@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Tryitter.Context;
 using Tryitter.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Tryitter.Controllers
 {
+  [Authorize(AuthenticationSchemes = "Bearer")]
   [ApiController]
   [Route("[controller]")]
   public class PostagensController : ControllerBase
