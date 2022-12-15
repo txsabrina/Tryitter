@@ -1777,19 +1777,19 @@
     ]
   },
   "packageFolders": {
-    "/home/caroline/.nuget/packages/": {}
+    "/home/sabrina/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/caroline/Documentos/CSharp_Projetos/novo/Tryitter/Tryitter.csproj",
+      "projectUniqueName": "/home/sabrina/CS/projetos/Tryitter2/Tryitter.csproj",
       "projectName": "Tryitter",
-      "projectPath": "/home/caroline/Documentos/CSharp_Projetos/novo/Tryitter/Tryitter.csproj",
-      "packagesPath": "/home/caroline/.nuget/packages/",
-      "outputPath": "/home/caroline/Documentos/CSharp_Projetos/novo/Tryitter/obj/",
+      "projectPath": "/home/sabrina/CS/projetos/Tryitter2/Tryitter.csproj",
+      "packagesPath": "/home/sabrina/.nuget/packages/",
+      "outputPath": "/home/sabrina/CS/projetos/Tryitter2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/caroline/.nuget/NuGet/NuGet.Config"
+        "/home/sabrina/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
